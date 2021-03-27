@@ -1,7 +1,7 @@
 # teamfireescape
 # ETL Project Proposal:
-#### Members: Riley, Sofanit, Robert
-#### Fires Reported versus Confirmed in the City of Minneapolis 2019
+### Members: Riley, Sofanit, Robert
+### Fires Reported versus Confirmed in the City of Minneapolis 2019
 
 Data will be extracted from two csv files that were gathered from opendata.minneapolismn.gov. One dataset contains "Fires Confirmed 2019" and the other contains "Fires Reported 2019" and have 1,300 and 40,000 rows of data, respectively.
 Put both datasets into Pandas dataframes. The "Date" columns have a date and timestamp, we will remove the timestamp. Each csv has 27 columns so we will drop them down to 5 or 6.

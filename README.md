@@ -17,10 +17,10 @@ Source for Fires Reported:
 https://data.world/minneapolismn/2cd887d6fdd0466b8105ec60347e6645-0
 # Transform:
 The data cleaning that was required included:
-"*"Dropping several unnecessary columns
-"*"Altering the "Incident Number" column to exclude the "19-" prefix
-"*"Cleaned the date column by dropping the timestamp and changing to datetime type
-"*"Combined the three street address columns into one column
+* Dropping several unnecessary columns
+* Altering the "Incident Number" column to exclude the "19-" prefix
+* Cleaned the date column by dropping the timestamp and changing to datetime type
+* Combined the three street address columns into one column
 
 # Load:
 A SQL database was chosen as our data tables were simple and easy to create in SQL and we felt most comfortable using SQL. To load the dataframes into a SQL database, we first created a database in pgAdmin. Then, two tables were created in this database to correspond with our two dataframes. Finally, data was loaded into our database using a sqlalchemy engine connection and utilizing pd.to_sql .

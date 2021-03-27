@@ -11,9 +11,9 @@ Load the data into a SQL database (fires2019_db) with a fires_confirmed, fires_r
 
 # Extract:
 The data was sourced was from http://opendata.minneapolismn.gov/ in csv format. The data was read into Pandas using pd.read_csv.
-Source for Fires Confirmed:
+* Source for Fires Confirmed:
 https://data.world/minneapolismn/b2d457b622094730a55f1ec731fab250-0
-Source for Fires Reported:
+* Source for Fires Reported:
 https://data.world/minneapolismn/2cd887d6fdd0466b8105ec60347e6645-0
 # Transform:
 The data cleaning that was required included:

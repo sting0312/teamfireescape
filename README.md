@@ -29,7 +29,7 @@ A SQL database was chosen as our data tables were simple and easy to create in S
 # Instructions for Use:
 
 ##### Extract & Transform
-1. The data of interest should be downloaded from the sources mentioned above in CSV format. Save these in a folder called "Resources" within your working directory. Files should be named "fires_reported" and "fires_confirmed"
+1. The data of interest should be downloaded from the sources mentioned above in CSV format. Save these in a folder called "Resources" within your working directory.
 2. Open a Jupyter Notebook in the working directory and import the data in to Pandas Dataframes using `pd.read_csv`
 3. Transform and clean the data using Pandas methods. This can include:
     - Dropping unnecessary columns
@@ -43,3 +43,5 @@ A SQL database was chosen as our data tables were simple and easy to create in S
 ##### Load
 6. Create a new SQL database in pgAdmin named "fire_db"
 7. Create new tables in this database: "fires_reported" and "fires_confirmed"
+8. Tables columns should correspond with the dataframe columns. Be sure to create a primary key using `id SERIAL PRIMARY KEY`
+9. Using sqlalchemy's `create_engine` method

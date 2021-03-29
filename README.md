@@ -29,5 +29,5 @@ A SQL database was chosen as our data tables were simple and easy to create in S
 # Instructions for Use:
 
 1. The data of interest should be downloaded from the sources mentioned above in CSV format. Save these in a folder called "Resources" within your working directory.
-2. Import the data in to Pandas Dataframes using 'pd.read_csv'
+2. Import the data in to Pandas Dataframes using `pd.read_csv`
 3. 

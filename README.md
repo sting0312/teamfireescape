@@ -28,6 +28,18 @@ A SQL database was chosen as our data tables were simple and easy to create in S
 
 # Instructions for Use:
 
-1. The data of interest should be downloaded from the sources mentioned above in CSV format. Save these in a folder called "Resources" within your working directory.
-2. Import the data in to Pandas Dataframes using `pd.read_csv`
-3. 
+##### Extract & Transform
+1. The data of interest should be downloaded from the sources mentioned above in CSV format. Save these in a folder called "Resources" within your working directory. Files should be named "fires_reported" and "fires_confirmed"
+2. Open a Jupyter Notebook in the working directory and import the data in to Pandas Dataframes using `pd.read_csv`
+3. Transform and clean the data using Pandas methods. This can include:
+    - Dropping unnecessary columns
+    - Change data type of date column to `datetime`
+    - Rename columns
+    - Concatenate address columns into one column
+    - Any other cleaning that makes the data easier to work with
+4. Save final cleaned Dataframe that is ready to be loaded into database
+5. Repeat steps 1-4 for each dataset. For example, repeat these steps for both the "fires_reported" and "fires_confirmed" datasets.
+
+##### Load
+6. Create a new SQL database in pgAdmin named "fire_db"
+7. Create new tables in this database: "fires_reported" and "fires_confirmed"

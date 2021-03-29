@@ -45,6 +45,6 @@ A SQL database was chosen as our data tables were simple and easy to create in S
 7. Create new tables in this database: "fires_reported" and "fires_confirmed"
 8. Tables columns should correspond with the dataframe columns. Be sure to create a primary key using `id SERIAL PRIMARY KEY`
 9. Using sqlalchemy's `create_engine` method, create an engine connection to the postgres database.
-10. Use 'pd.to_sql' to load formated dataframes into the database.
+10. Use `pd.to_sql` to load formated dataframes into the database.
 11. Either in the Jupyter Notebook or in pgAdmin, examine the database tables to ensure the data was loaded correctly.
 12. Repeat steps 6-11 for each dataset. For example, repeat these steps for both the "fires_reported" and "fires_confirmed" datasets.

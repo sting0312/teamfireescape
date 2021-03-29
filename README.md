@@ -28,9 +28,11 @@ A SQL database was chosen as our data tables were simple and easy to create in S
 
 # Instructions for Use:
 
-##### Extract & Transform
+##### Extract
 1. The data of interest should be downloaded from the sources mentioned above in CSV format. Save these in a folder called "Resources" within your working directory.
 2. Open a Jupyter Notebook in the working directory and import the data in to Pandas Dataframes using `pd.read_csv`
+
+##### Transform
 3. Transform and clean the data using Pandas methods. This can include:
     - Dropping unnecessary columns
     - Change data type of date column to `datetime`
